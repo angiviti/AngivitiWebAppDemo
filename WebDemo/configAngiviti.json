@@ -1,0 +1,12 @@
+{
+    "startUri": "http://localhost:8080/start",
+    "webAppFirstTaskUri": "#/start",
+    "userInfo": {
+        "dataBinding":["Name","City","CC"],
+        "endUri": "http://localhost:8080/taskone/{0}?taskDefKey=userInfo"
+    },
+    "SelectProduct": {
+        "dataBinding":["Product"],
+        "endUri": "http://localhost:8080/tasktwo/{0}?taskDefKey=SelectProduct"
+    }
+}
